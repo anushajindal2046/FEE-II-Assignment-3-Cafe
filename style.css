@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    height : 100vh;
+    background: url("bg2.avif");
+    background-position: center;
+    background-size:cover;
+}
+header{
+    position : fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    padding:20px;
+}
+
+header .navbar{
+    display : flex;
+    align-items: center;
+    max-width: 1200px;
+    margin:0 auto;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    color:#fff;
+    font-size:2.1rem ;
+    font-weight:600;
+}
+
+.navbar .logo .span{
+    color:#a6572d;
+}
+
+.navbar .menu-links{
+    display : flex;
+    gap:40px;
+    list-style: none;
+
+}
+
+.navbar a {
+    color:#fff;
+    text-decoration: none;
+    transition:0.2s ease;
+}
+
+.navbar a:hover {
+    color : #753e1d;
+}
+
+.hero-section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding : 0 20px;
+}
+
+.hero-section .content{
+    color:#fff;
+    max-width: 1200px;
+    width:100%;
+    margin: 0 auto;
+}
+
+.hero-section .content h1 {
+    font-size: 3rem;
+    max-width: 600px;
+}
+
+.hero-section .content p {
+    font-weight: 300;
+    margin-top: 15px;
+    max-width:600px;
+}
+
+.hero-section .content button {
+    background:#fff;
+    outline: none;
+    border : none;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 38px;
+    padding: 12px 30px;
+    border-radius: 6px;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+button a{
+    text-decoration: none;
+    color:black;
+    
+}
+
+.hero-section .content button:hover {
+    color:#fff;
+    background-color:#5d3319;
+}
+.footer {
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+

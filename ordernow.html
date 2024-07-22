@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Frothy Beans</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">    <link href="styles.css" rel="stylesheet">
+</head>
+<body >
+    <header class ="a12">
+        <nav class = "navbar">
+          <a href = "index.html" class = "logo">Café Frothy Beans <span>.</span></a>
+          <ul class = "menu-links">
+            <li><a href = "index.html"> Home </a></li>
+            <li><a href = "ordernow.html"> Menu </a></li>         
+            <li><a href = "#order" style = "margin-right:20px;"> Order Online </a></li>
+          </ul>
+        </nav>
+      </header>
+        <!-- Header -->
+    <header class="jumbotron text-center">
+        <h1 class="display-4" style ="color:white; font-family:Arial, Helvetica, sans-serif;">Welcome to Cafe Frothy Beans</h1>
+        <p class="lead" style ="color:white; font-family:Arial, Helvetica, sans-serif;">"A fresh cup of coffee is like a hug in a mug." </p>
+        <!-- About Us Section -->
+    </header>
+    <section id="about" class="section2">
+        <div class="container1">
+            <p class="text-center " style ="color:white; font-family:Arial, Helvetica, sans-serif;">Cafe Frothy Beans is your go-to spot for the best coffee in town. We pride ourselves on our top-quality beans and our commitment to delivering an exceptional coffee experience.</p>
+            <p class="text-center" style ="color:white; font-family:Arial, Helvetica, sans-serif;">At Cafe Frothy Beans, we believe in the art of coffee making. We roast our own beans in-house to ensure that each cup of coffee you enjoy is fresh and full of flavor.<br> Our skilled baristas are passionate about their craft and take great care in preparing each beverage to perfection.</p>
+            <p class="text-center" style ="color:white; font-family:Arial, Helvetica, sans-serif;">Quality is at the heart of everything we do. From selecting the finest coffee beans from sustainable sources to meticulously roasting and brewing them,<br> we aim to provide a coffee experience that delights your senses. We also offer a selection of freshly baked pastries and snacks, made with the highest quality ingredients.</p>
+            <p class="text-center" style ="color:white; font-family:Arial, Helvetica, sans-serif;">Our cozy and welcoming atmosphere is perfect for catching up with friends, working remotely, or simply relaxing with a great cup of coffee.<br> We host regular events, including coffee tastings and barista workshops, to share our love of coffee with our community.</p>
+            <p class="text-center" style ="color:white; font-family:Arial, Helvetica, sans-serif;">Join us at Cafe Frothy Beans and discover why our coffee is the talk of the town. Whether you're a coffee <br>connoisseur or just looking for a great place to unwind, we're here to make your day a little brighter.</p>
+        </div>
+    </section>
+        <!-- New Arrivals Section -->
+    <section id="new-arrivals" class="section bg-dark">
+        <div class="container">
+            <h2 class="text-center" style = "color:white; font-family:Arial, Helvetica, sans-serif;">New Arrivals</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="pumpkin.jpeg" class="card-img-top" alt="New Arrival 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Pumpkin Spice Latte</h5>
+                            <p class="card-text">Seasonal favorite.<br> ₹280</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#pumpkinSpiceModal">Try Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="mocha.jpeg" class="card-img-top" alt="New Arrival 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Mocha</h5>
+                            <p class="card-text">Perfect blend of coffee and chocolate.<br> ₹250</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#mochaModal">Try Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="vanilla.jpeg" class="card-img-top" alt="New Arrival 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Vanilla Latte</h5>
+                            <p class="card-text">A classic favorite.<br> ₹150</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#vanillaLatteModal">Try Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Menu Section -->
+    <!-- elixers Section -->
+    <h1 class="display-4 text-center" style ="color:white; font-family:Arial, Helvetica, sans-serif;"id="menu">Best Sellers</h1>
+    <section id="elixers" class="section">
+        <div class="container">
+            <h2 class="text-center" style ="color:white; font-family:Arial, Helvetica, sans-serif;" >Caffeine Infusion</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="vanilla.jpeg" class="card-img-top" alt="New Arrival 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Vanilla Latte</h5>
+                            <p class="card-text">A classic favorite.<br> ₹150</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#vanillaLatteModal">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="pumpkin.jpeg" class="card-img-top" alt="New Arrival 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Pumpkin Spice Latte</h5>
+                            <p class="card-text">Seasonal favorite.<br>₹260</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#pumpkinSpiceModal">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="espresso.jpeg" class="card-img-top" alt="Coffee 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Espresso</h5>
+                            <p class="card-text">Rich and bold espresso. <br> ₹290</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#espressoModal">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="americano.jpeg" class="card-img-top" alt="Coffee 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Americano</h5>
+                            <p class="card-text">Rich and bold espresso.<br> ₹250</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#espressoModal">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="mocha.jpeg" class="card-img-top" alt="Coffee 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Mocha</h5>
+                            <p class="card-text">Rich and bold espresso. <br>₹300</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#espressoModal">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://media.istockphoto.com/id/1179920110/photo/coffee-cup-and-coffee-beans.jpg?s=612x612&w=0&k=20&c=_050CKJv7ZqStJx0TINEsQDIUD4dIyicmFHQWNWXIzs=" class="card-img-top" alt="Coffee 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Black</h5>
+                            <p class="card-text">Rich and bold espresso.<br>₹295</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#espressoModal">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://media.istockphoto.com/id/505168330/photo/cup-of-cafe-latte-with-coffee-beans-and-cinnamon-sticks.jpg?s=612x612&w=0&k=20&c=h7v8kAfWOpRapv6hrDwmmB54DqrGQWxlhP_mTeqTQPA=" class="card-img-top" alt="Coffee 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Cappuccino</h5>
+                            <p class="card-text">Smooth and creamy cappuccino.<br>₹250</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#cappuccinoModal">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="latte.jpeg" class="card-img-top" alt="Coffee 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Latte</h5>
+                            <p class="card-text">Delicate and flavorful latte. <br>₹190</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#latteModal">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="irish.jpeg" class="card-img-top" alt="Coffee 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Irish</h5>
+                            <p class="card-text">Delicate and flavorful.<br>₹350</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#latteModal">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- baker Section -->
+    <section id="baker" class="section">
+        <div class="container">
+            <h2 class="text-center" style ="color:white; font-family:Arial, Helvetica, sans-serif;" >Bakery Specials</h2>
+            <div class="row">
+                
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="blueberry.jpeg" class="card-img-top" alt="Menu Item 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Blueberry Muffin</h5>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#blueberryMuffinModal">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="croissant.jpeg" class="card-img-top" alt="Menu Item 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Croissant</h5>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#croissantModal">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="bagel.jpeg" class="card-img-top" alt="Menu Item 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Smoked Salmon & Cream Cheese Bagel</h5>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#bagelModal">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="scones.jpeg" class="card-img-top" alt="Menu Item 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Scones with Jalapeño Honey Butter</h5>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#blueberryMuffinModal">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="twist.jpeg" class="card-img-top" alt="Menu Item 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Raspberry Danish Twist</h5>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#croissantModal">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://st2.depositphotos.com/1011382/8086/i/450/depositphotos_80862816-stock-photo-farmstyle-mini-apple-pies.jpg" class="card-img-top" alt="Menu Item 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Mini Caramel Apple Tarts</h5>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#bagelModal">View Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <!-- Events Section -->
+    <section id="events" class="section">
+        <div class="container">
+            <h2 class="text-center" style ="color:white; font-family:Arial, Helvetica, sans-serif;" >Learner's Hub</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="tasting.jpeg" class="card-img-top" alt="Event 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Coffee Tasting</h5>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#coffeeTastingModal">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="barista.jpeg" class="card-img-top" alt="Event 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Barista Workshop</h5>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#baristaWorkshopModal">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="live.jpeg" class="card-img-top" alt="Event 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Live Music</h5>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#liveMusicModal">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Online Section -->
+    <section id="order" class="section bg-dark">
+        <div class="container">
+            <h2 class="text-center" style ="color:white; font-family:Arial, Helvetica, sans-serif;" >Order Online</h2>
+            <p class="text-center" style ="color:white; font-family:Arial, Helvetica, sans-serif;" >Take-Away or delivery, now both made easy</p>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label" style ="color:white; font-family:Arial, Helvetica, sans-serif;" >Name</label>
+                    <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-3">
+                    <label for="phnumber" class="form-label" style ="color:white; font-family:Arial, Helvetica, sans-serif;" >Mobile No.</label>
+                    <input type="number" class="form-control" id="phnumber" aria-describedby="emailHelp">
+                  </div>
+                <div class="mb-3">
+                  <label for="wmail" class="form-label" style ="color:white; font-family:Arial, Helvetica, sans-serif;" >Email address</label>
+                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="order" style ="color:white; font-family:Arial, Helvetica, sans-serif;" >Order</label>
+                    <textarea class="form-control" id="inputMessage" rows="4" placeholder="Your Order"></textarea>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1" style ="color:white; font-family:Arial, Helvetica, sans-serif;" >Remember me</label>
+                  </div>
+                  <button type="submit" class="btn btn-primary" style ="color:white; font-family:Arial, Helvetica, sans-serif;" >Order</button>
+                  <button type="reset" class="btn btn-primary" style ="color:white; font-family:Arial, Helvetica, sans-serif;" >Reset</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Cafe Bliss. All Rights Reserved.</p>
+            <p>123 Coffee Street, Espresso City, CU 12345 | Email: info@cafebliss.com | Phone: (123) 456-7890</p>
+        </div>
+    </footer>
+</body>
+</html>
